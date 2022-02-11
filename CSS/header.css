@@ -1,0 +1,17 @@
+header {
+  height: 90px;
+  background-color: #181864;
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav h1 {
+  margin: 0px;
+  color: #fff;
+  margin-left: 20px;
+  font-size: 27px;
+}

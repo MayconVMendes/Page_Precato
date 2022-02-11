@@ -1,0 +1,21 @@
+#pagina01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pagina01 .textTitle {
+  width: 610px;
+}
+
+#pagina01 .textTitle p {
+  text-align: center;
+}
+
+#pagina01 .textTitle b {
+  color: #181864;
+}
+
+#pagina01 button {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+#pagina02 {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+#pagina02 .boxTexts {
+  text-align: center;
+}
