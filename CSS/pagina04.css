@@ -1,0 +1,25 @@
+#pagina04 .boxBlue {
+  background-image: url("../img/pagina04/box.webp");
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 356px;    
+  display: grid;
+  justify-content: center;
+}
+
+#pagina04 .titleSubtitle h3 {
+  font-size: 20px;
+}
+
+#pagina04 .titleSubtitle p {
+  font-size: 14px;
+}
+
+#pagina04 .description {
+  width: 429px;
+  height: 229px;
+}
+
+#pagina04 .description p {
+  font-size: 15px;
+}

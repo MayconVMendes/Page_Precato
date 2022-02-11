@@ -1,0 +1,22 @@
+#pagina03{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+#pagina03 .boxText{
+    width: 444px;
+}
+
+#pagina03 .boxText h2{
+    padding-bottom: 10px;
+}
+
+#pagina03 .boxText h3{
+    color: #164C81;
+}
+
+#pagina03 .boxText p{
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
