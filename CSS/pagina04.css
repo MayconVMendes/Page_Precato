@@ -2,9 +2,31 @@
   background-image: url("../img/pagina04/box.webp");
   background-repeat: no-repeat;
   width: 530px;
-  height: 356px;    
+  height: 356px;
   display: grid;
   justify-content: center;
+  padding-bottom: 40px;
+}
+
+#pagina04 .title{
+  margin-left: 147px;
+  padding-bottom: 50px;
+}
+
+#pagina04 .principalBox{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: initial;
+  flex-wrap: wrap;
+}
+
+#pagina04 .titleSubtitle .people img {
+  float: right;
+  margin-top: -70px;
+}
+#pagina04 .titleSubtitle .location {
+  display: flex;
+  margin-top: -20px;
 }
 
 #pagina04 .titleSubtitle h3 {
@@ -13,6 +35,7 @@
 
 #pagina04 .titleSubtitle p {
   font-size: 14px;
+  padding-left: 10px;
 }
 
 #pagina04 .description {
@@ -22,4 +45,6 @@
 
 #pagina04 .description p {
   font-size: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
