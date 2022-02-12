@@ -1,0 +1,48 @@
+#pagina05 {
+  background-color: #2ec5ce;
+}
+
+#pagina05 .title {
+  margin-left: 147px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+#pagina05 .boxsPrincipal {
+  display: flex;
+  justify-content: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#pagina05 .boxsTexts {
+  background-color: white;
+  width: auto;
+  border-radius: 20px;
+}
+
+#pagina05 .boxsTexts h3 {
+  padding-top: 40px;
+}
+#pagina05 .boxsTexts p {
+  padding-bottom: 40px;
+}
+
+#pagina05 .boxsTexts p,
+h3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  #pagina05 .boxsPrincipal {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #pagina05 .boxsTexts h3{
+    font-size: 19px;
+  }
+  #pagina05 .boxsTexts p{
+    font-size: 14px;
+  }
+}

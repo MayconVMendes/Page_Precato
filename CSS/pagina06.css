@@ -1,0 +1,110 @@
+#pagina06 .title {
+  margin-left: 147px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+#pagina06 .colorBlue {
+  width: 274px;
+  height: 13px;
+  background-color: #64b2ff;
+}
+
+#pagina06 .boxPrincipal {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+#pagina06 .boxText {
+  padding-left: 77px;
+}
+#pagina06 .boxText p {
+  font-size: 24px;
+}
+
+#pagina06 .boxInfo {
+  display: flex;
+  padding-left: 487px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -300px;
+  padding-bottom: 56px;
+}
+#pagina06 .boxInfo p {
+  font-size: 14px;
+}
+#pagina06 .boxInfo img {
+  width: 260px;
+  height: 244px;
+}
+#pagina06 .people {
+  display: flex;
+}
+#pagina06 .people p {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  #pagina06 .boxInfo {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  #pagina06 .boxInfo {
+    margin-top: 10px;
+  }
+  #pagina06 .boxPrincipal img {
+    width: 470px;
+    height: 610px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #pagina06 .boxPrincipal {
+    display: grid;
+    align-items: center;
+  }
+  #pagina06 .boxInfo p {
+    display: none;
+  }
+  #pagina06 .people {
+    padding-bottom: 20px;
+  }
+  #pagina06 .people p {
+    display: flex;
+    font-size: 14px;
+    align-items: end;
+  }
+  #pagina06 .boxInfo {
+    display: flex;
+    padding-left: 0px;
+  }
+  #pagina06 .boxText {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #pagina06 .boxPrincipal img {
+    width: 352.5px;
+    height: 457.5px;
+  }
+
+  #pagina06 .colorBlue {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #pagina06 .boxPrincipal img {
+    width: 176px;
+    height: 228.5px;
+  }
+
+  #pagina06 .boxText p {
+    font-size: 14px;
+  }
+
+}

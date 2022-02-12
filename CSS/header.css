@@ -9,9 +9,11 @@ header nav {
   align-items: center;
 }
 
-header nav h1 {
+header nav a {
   margin: 0px;
   color: #fff;
   margin-left: 20px;
   font-size: 27px;
+  cursor: pointer;
+  text-decoration: none;
 }

@@ -1,0 +1,25 @@
+footer {
+  background-color: #000;
+}
+
+footer .boxFooter {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+@media screen and (max-width: 900px) {
+  footer .boxFooter {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer .boxFooter {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}

@@ -4,10 +4,6 @@
   align-items: center;
 }
 
-#pagina01 .textTitle {
-  width: 610px;
-}
-
 #pagina01 .textTitle p {
   text-align: center;
 }
@@ -18,4 +14,15 @@
 
 #pagina01 button {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  #pagina01 .textTitle p {
+    font-size: 14px;
+  }
+
+  iframe{
+    width: 379.5px;
+    height: 210px;
+  }
 }

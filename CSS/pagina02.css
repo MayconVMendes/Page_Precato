@@ -7,3 +7,13 @@
 #pagina02 .boxTexts {
   text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+  #pagina02 .boxTexts {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #pagina02 .boxTexts p{
+    font-size: 18px;
+  }
+}

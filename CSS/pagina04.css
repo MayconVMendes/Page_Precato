@@ -5,15 +5,15 @@
   height: 356px;
   display: grid;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
-#pagina04 .title{
+#pagina04 .title {
   margin-left: 147px;
   padding-bottom: 50px;
 }
 
-#pagina04 .principalBox{
+#pagina04 .principalBox {
   display: flex;
   justify-content: space-evenly;
   flex-direction: initial;
@@ -47,4 +47,32 @@
   font-size: 15px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+@media screen and (max-width: 620px) {
+  #pagina04 .title {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 10px;
+    font-size: 21px;
+    margin-left: 0px;
+  }
+
+  #pagina04 .boxBlue {
+    width: 298px;
+    height: 200px;
+    padding-bottom: 250px;
+  }
+  #pagina04 .titleSubtitle .people img {
+    width: 80px;
+    margin-top: -50px;
+    padding-right: 20px;
+  }
+  #pagina04 .titleSubtitle .location {
+    padding-left: 30px;
+  }
+  #pagina04 .description{
+    width: auto;
+    height: auto;
+  }
 }
